@@ -7,4 +7,4 @@
 	branch = humble
 [submodule "ros_team_workspace"]
 	path = ros_team_workspace
-	url = ttps://github.com/StoglRobotics/ros_team_workspace.git
+	url = https://github.com/StoglRobotics/ros_team_workspace.git

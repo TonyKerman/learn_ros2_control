@@ -1,7 +1,0 @@
-test_rrbot_hardware_interface 1 0.128037
-cppcheck 1 0.228762
-lint_cmake 1 0.193903
-uncrustify 0 0
-xmllint 1 1.14878
----
-uncrustify

@@ -1,9 +1,0 @@
-/home/tony/ros2_control/build/my_hardwareinterfaces/CMakeFiles/uninstall.dir
-/home/tony/ros2_control/build/my_hardwareinterfaces/CMakeFiles/my_hardwareinterfaces_uninstall.dir
-/home/tony/ros2_control/build/my_hardwareinterfaces/CMakeFiles/test.dir
-/home/tony/ros2_control/build/my_hardwareinterfaces/CMakeFiles/edit_cache.dir
-/home/tony/ros2_control/build/my_hardwareinterfaces/CMakeFiles/rebuild_cache.dir
-/home/tony/ros2_control/build/my_hardwareinterfaces/CMakeFiles/list_install_components.dir
-/home/tony/ros2_control/build/my_hardwareinterfaces/CMakeFiles/install.dir
-/home/tony/ros2_control/build/my_hardwareinterfaces/CMakeFiles/install/local.dir
-/home/tony/ros2_control/build/my_hardwareinterfaces/CMakeFiles/install/strip.dir

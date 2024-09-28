@@ -1,8 +1,0 @@
-source;share/roscon2022_control_workshop/hook/cmake_prefix_path.ps1
-source;share/roscon2022_control_workshop/hook/cmake_prefix_path.dsv
-source;share/roscon2022_control_workshop/hook/cmake_prefix_path.sh
-source;share/roscon2022_control_workshop/local_setup.bash
-source;share/roscon2022_control_workshop/local_setup.dsv
-source;share/roscon2022_control_workshop/local_setup.ps1
-source;share/roscon2022_control_workshop/local_setup.sh
-source;share/roscon2022_control_workshop/local_setup.zsh

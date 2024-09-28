@@ -1,5 +1,6 @@
 # $LICENSE$
 
+from sys import executable
 from launch import LaunchDescription
 from launch.actions import (
     DeclareLaunchArgument,
@@ -99,16 +100,23 @@ def generate_launch_description():
             " ",
             "mock_sensor_commands:=false",
             " ",
-            "sim_gazebo_classic:=true",
+            "sim_gazebo_classic:=false",
             " ",
             "sim_gazebo:=false",
             " ",
             "simulation_controllers:=",
-            robot_controllers,
+            " ",
             " ",
         ]
     )
     robot_description = {"robot_description": robot_description_content}
+
+    control_node = Node(
+        package ="controller_manager",
+        executable="ros2_control_node",
+        output="screen",
+        parameters=[robot_description, robot_controllers]
+    )
 
     robot_state_pub_node = Node(
         package="robot_state_publisher",
@@ -124,21 +132,6 @@ def generate_launch_description():
         arguments=["-d", rviz_config_file],
     )
 
-    # Gazebo nodes
-    gazebo = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            [FindPackageShare("gazebo_ros"), "/launch", "/gazebo.launch.py"]
-        ),
-    )
-
-    # Spawn robot
-    gazebo_spawn_robot = Node(
-        package="gazebo_ros",
-        executable="spawn_entity.py",
-        name="spawn_rrbot",
-        arguments=["-entity", "rrbot", "-topic", "robot_description"],
-        output="screen",
-    )
 
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
@@ -157,13 +150,6 @@ def generate_launch_description():
             )
         ]
 
-    # Delay loading and activation of `joint_state_broadcaster` after start of ros2_control_node
-    delay_joint_state_broadcaster_spawner_after_gazebo_spawn_robot = RegisterEventHandler(
-        event_handler=OnProcessStart(
-            target_action=gazebo_spawn_robot,
-            on_start=[joint_state_broadcaster_spawner],
-        )
-    )
 
     # Delay rviz start after Joint State Broadcaster to avoid unnecessary warning output.
     delay_rviz_after_joint_state_broadcaster_spawner = RegisterEventHandler(
@@ -193,11 +179,10 @@ def generate_launch_description():
     return LaunchDescription(
         declared_arguments
         + [
-            gazebo,
-            gazebo_spawn_robot,
+            control_node,
+            joint_state_broadcaster_spawner,
             robot_state_pub_node,
             delay_rviz_after_joint_state_broadcaster_spawner,
-            delay_joint_state_broadcaster_spawner_after_gazebo_spawn_robot,
         ]
         + delay_robot_controller_spawners_after_joint_state_broadcaster_spawner
     )

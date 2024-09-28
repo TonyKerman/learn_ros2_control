@@ -1,0 +1,20 @@
+[0.050s] Invoking command in '/home/tony/ros2_control/build/my_hardwareinterfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_control/build/my_hardwareinterfaces -- -j4 -l4
+[0.384s] Invoked command in '/home/tony/ros2_control/build/my_hardwareinterfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_control/build/my_hardwareinterfaces -- -j4 -l4
+[0.673s] Invoking command in '/home/tony/ros2_control/build/my_hardwareinterfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_control/build/my_hardwareinterfaces
+[0.716s] -- Install configuration: ""
+[0.717s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/ament_index/resource_index/package_run_dependencies/my_hardwareinterfaces
+[0.729s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/ament_index/resource_index/parent_prefix_path/my_hardwareinterfaces
+[0.730s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/environment/ament_prefix_path.sh
+[0.732s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/environment/ament_prefix_path.dsv
+[0.733s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/environment/path.sh
+[0.735s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/environment/path.dsv
+[0.738s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/local_setup.bash
+[0.739s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/local_setup.sh
+[0.741s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/local_setup.zsh
+[0.746s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/local_setup.dsv
+[0.747s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/package.dsv
+[0.749s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/ament_index/resource_index/packages/my_hardwareinterfaces
+[0.750s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/cmake/my_hardwareinterfacesConfig.cmake
+[0.751s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/cmake/my_hardwareinterfacesConfig-version.cmake
+[0.753s] -- Up-to-date: /home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/package.xml
+[0.762s] Invoked command in '/home/tony/ros2_control/build/my_hardwareinterfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_control/build/my_hardwareinterfaces

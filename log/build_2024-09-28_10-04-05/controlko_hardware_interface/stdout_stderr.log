@@ -1,0 +1,59 @@
+[ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/controlko_hardware_interface.dir/src/rrbot_hardware_interface.cpp.o[0m
+[ 55%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 55%] Built target gmock_main
+[01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type controlko_hardware_interface::RRBotHardwareInterface::prepare_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:127:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstarting_at_least_one_pos_itf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  127 |   bool [01;35m[Kstarting_at_least_one_pos_itf[m[K = false;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:128:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstarting_at_least_one_vel_itf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  128 |   bool [01;35m[Kstarting_at_least_one_vel_itf[m[K = false;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:147:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstopping_all_pos_itfs[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  147 |   bool [01;35m[Kstopping_all_pos_itfs[m[K = true;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:148:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstopping_all_vel_itfs[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  148 |   bool [01;35m[Kstopping_all_vel_itfs[m[K = true;
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:167:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_control_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  167 |   auto [01;35m[Kcurrent_control_mode[m[K = rrbot_comms_->get_control_mode();
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 66%] Built target gmock
+[ 77%] [32mBuilding CXX object CMakeFiles/test_rrbot_hardware_interface.dir/test/test_rrbot_hardware_interface.cpp.o[0m
+[ 88%] [32m[1mLinking CXX shared library libcontrolko_hardware_interface.so[0m
+[ 88%] Built target controlko_hardware_interface
+[100%] [32m[1mLinking CXX executable test_rrbot_hardware_interface[0m
+[100%] Built target test_rrbot_hardware_interface
+-- Install configuration: ""
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/controlko_hardware_interface.xml
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/lib/libcontrolko_hardware_interface.so
+-- Set runtime path of "/home/tony/ros2_control/install/controlko_hardware_interface/lib/libcontrolko_hardware_interface.so" to ""
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/include
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/include/controlko_hardware_interface
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/include/controlko_hardware_interface/rrbot_hardware_interface.hpp
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/include/controlko_hardware_interface/dr_denis_rrbot_comms.hpp
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/include/controlko_hardware_interface/visibility_control.h
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/library_path.sh
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/library_path.dsv
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/ament_index/resource_index/package_run_dependencies/controlko_hardware_interface
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/ament_index/resource_index/parent_prefix_path/controlko_hardware_interface
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/ament_prefix_path.sh
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/path.sh
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/path.dsv
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.bash
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.sh
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.zsh
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.dsv
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/package.dsv
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/ament_index/resource_index/packages/controlko_hardware_interface
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/controlko_hardware_interface
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/controlko_hardware_interfaceConfig.cmake
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/controlko_hardware_interfaceConfig-version.cmake
+-- Installing: /home/tony/ros2_control/install/controlko_hardware_interface/share/controlko_hardware_interface/package.xml

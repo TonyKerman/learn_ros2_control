@@ -1,0 +1,22 @@
+-- run_test.py: invoking following command in '/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces':
+ - /home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_rrbot_hardware_interface --gtest_output=xml:/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/test_rrbot_hardware_interface.gtest.xml
+
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestRRBotHardwareInterface
+[ RUN      ] TestRRBotHardwareInterface.load_rrbot_hardware_interface_2dof
+[INFO] [1727489288.732061874] [resource_manager]: Loading hardware 'RRBotHardwareInterface2dof' 
+[INFO] [1727489288.732688165] [resource_manager]: Initialize hardware 'RRBotHardwareInterface2dof' 
+[INFO] [1727489288.732935402] [resource_manager]: Successful initialization of hardware 'RRBotHardwareInterface2dof'
+[       OK ] TestRRBotHardwareInterface.load_rrbot_hardware_interface_2dof (5 ms)
+[----------] 1 test from TestRRBotHardwareInterface (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/test_rrbot_hardware_interface.gtest.xml'
+-- run_test.py: verify result file '/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/test_rrbot_hardware_interface.gtest.xml'

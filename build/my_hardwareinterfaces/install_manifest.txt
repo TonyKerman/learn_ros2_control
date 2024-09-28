@@ -1,0 +1,15 @@
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/ament_index/resource_index/package_run_dependencies/my_hardwareinterfaces
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/ament_index/resource_index/parent_prefix_path/my_hardwareinterfaces
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/environment/ament_prefix_path.sh
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/environment/ament_prefix_path.dsv
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/environment/path.sh
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/environment/path.dsv
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/local_setup.bash
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/local_setup.sh
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/local_setup.zsh
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/local_setup.dsv
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/package.dsv
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/ament_index/resource_index/packages/my_hardwareinterfaces
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/cmake/my_hardwareinterfacesConfig.cmake
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/cmake/my_hardwareinterfacesConfig-version.cmake
+/home/tony/ros2_control/install/my_hardwareinterfaces/share/my_hardwareinterfaces/package.xml

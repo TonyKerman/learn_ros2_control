@@ -1,0 +1,4 @@
+Invoking command in '/home/tony/ros2_control/1_rrbot_ws/build/controlko_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_control/1_rrbot_ws/build/controlko_description -- -j4 -l4
+Invoked command in '/home/tony/ros2_control/1_rrbot_ws/build/controlko_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_control/1_rrbot_ws/build/controlko_description -- -j4 -l4
+Invoking command in '/home/tony/ros2_control/1_rrbot_ws/build/controlko_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_control/1_rrbot_ws/build/controlko_description
+Invoked command in '/home/tony/ros2_control/1_rrbot_ws/build/controlko_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_control/1_rrbot_ws/build/controlko_description

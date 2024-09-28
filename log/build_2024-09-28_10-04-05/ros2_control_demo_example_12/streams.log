@@ -1,0 +1,44 @@
+[0.046s] Invoking command in '/home/tony/ros2_control/build/ros2_control_demo_example_12': AMENT_PREFIX_PATH=/home/tony/ros2_control/install/ros2_control_demo_testing:/home/tony/ros2_control/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/install/ros2_control_demo_description:/home/tony/ros2_control/1_rrbot_ws/install/roscon2022_control_workshop:/home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface:/home/tony/ros2_control/1_rrbot_ws/install/controlko_bringup:/home/tony/ros2_control/1_rrbot_ws/install/controlko_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tony/ros2_control/examples/src/example_12 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_control/install/ros2_control_demo_example_12
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.300s] -- Detecting CXX compiler ABI info
+[0.494s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.531s] -- Detecting CXX compile features - done
+[0.543s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.223s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.598s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.701s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.726s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.773s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.629s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.635s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.725s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.942s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.979s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.017s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.026s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.043s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.064s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.083s] -- Looking for C++ include pthread.h
+[3.333s] -- Looking for C++ include pthread.h - found
+[3.333s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.532s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.537s] -- Found Threads: TRUE  
+[3.680s] -- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[3.684s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.733s] -- Found controller_interface: 2.43.1 (/opt/ros/humble/share/controller_interface/cmake)
+[3.750s] -- Found realtime_tools: 2.6.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[3.863s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[6.744s] -- Configuring done
+[6.894s] -- Generating done
+[6.908s] -- Build files have been written to: /home/tony/ros2_control/build/ros2_control_demo_example_12
+[6.940s] Invoked command in '/home/tony/ros2_control/build/ros2_control_demo_example_12' returned '0': AMENT_PREFIX_PATH=/home/tony/ros2_control/install/ros2_control_demo_testing:/home/tony/ros2_control/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/install/ros2_control_demo_description:/home/tony/ros2_control/1_rrbot_ws/install/roscon2022_control_workshop:/home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface:/home/tony/ros2_control/1_rrbot_ws/install/controlko_bringup:/home/tony/ros2_control/1_rrbot_ws/install/controlko_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tony/ros2_control/examples/src/example_12 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_control/install/ros2_control_demo_example_12
+[6.942s] Invoking command in '/home/tony/ros2_control/build/ros2_control_demo_example_12': AMENT_PREFIX_PATH=/home/tony/ros2_control/install/ros2_control_demo_testing:/home/tony/ros2_control/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/install/ros2_control_demo_description:/home/tony/ros2_control/1_rrbot_ws/install/roscon2022_control_workshop:/home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface:/home/tony/ros2_control/1_rrbot_ws/install/controlko_bringup:/home/tony/ros2_control/1_rrbot_ws/install/controlko_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tony/ros2_control/build/ros2_control_demo_example_12 -- -j4 -l4
+[7.077s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_12.dir/hardware/rrbot.cpp.o[0m
+[10.365s] gmake[2]: *** [CMakeFiles/ros2_control_demo_example_12.dir/build.make:76: CMakeFiles/ros2_control_demo_example_12.dir/hardware/rrbot.cpp.o] Interrupt
+[10.377s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ros2_control_demo_example_12.dir/all] Interrupt
+[10.380s] gmake: *** [Makefile:146: all] Interrupt
+[10.395s] Invoked command in '/home/tony/ros2_control/build/ros2_control_demo_example_12' returned '-2': AMENT_PREFIX_PATH=/home/tony/ros2_control/install/ros2_control_demo_testing:/home/tony/ros2_control/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/install/ros2_control_demo_description:/home/tony/ros2_control/1_rrbot_ws/install/roscon2022_control_workshop:/home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface:/home/tony/ros2_control/1_rrbot_ws/install/controlko_bringup:/home/tony/ros2_control/1_rrbot_ws/install/controlko_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tony/ros2_control/build/ros2_control_demo_example_12 -- -j4 -l4

@@ -1,0 +1,150 @@
+UpdateCTestConfiguration  from :/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/CTestConfiguration.ini
+Parse Config file:/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/CTestConfiguration.ini
+   Site: kerman-nuc10
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20240928-0208 - Experimental
+UpdateCTestConfiguration  from :/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/CTestConfiguration.ini
+Parse Config file:/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/CTestConfiguration.ini
+Test project /home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_rrbot_hardware_interface
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/test_rrbot_hardware_interface.gtest.xml" "--package-name" "my_hardwareinterfaces" "--output-file" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/ament_cmake_gmock/test_rrbot_hardware_interface.txt" "--command" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_rrbot_hardware_interface" "--gtest_output=xml:/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/test_rrbot_hardware_interface.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces':
+1:  - /home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_rrbot_hardware_interface --gtest_output=xml:/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/test_rrbot_hardware_interface.gtest.xml
+1: Running main() from gmock_main.cc
+1: [==========] Running 1 test from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 1 test from TestRRBotHardwareInterface
+1: [ RUN      ] TestRRBotHardwareInterface.load_rrbot_hardware_interface_2dof
+1: [INFO] [1727489288.732061874] [resource_manager]: Loading hardware 'RRBotHardwareInterface2dof' 
+1: [INFO] [1727489288.732688165] [resource_manager]: Initialize hardware 'RRBotHardwareInterface2dof' 
+1: [INFO] [1727489288.732935402] [resource_manager]: Successful initialization of hardware 'RRBotHardwareInterface2dof'
+1: [       OK ] TestRRBotHardwareInterface.load_rrbot_hardware_interface_2dof (5 ms)
+1: [----------] 1 test from TestRRBotHardwareInterface (5 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 1 test from 1 test suite ran. (5 ms total)
+1: [  PASSED  ] 1 test.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/test_rrbot_hardware_interface.gtest.xml'
+1: -- run_test.py: verify result file '/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/test_rrbot_hardware_interface.gtest.xml'
+1/5 Test #1: test_rrbot_hardware_interface ....   Passed    0.13 sec
+test 2
+    Start 2: cppcheck
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/cppcheck.xunit.xml" "--package-name" "my_hardwareinterfaces" "--output-file" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/cppcheck.xunit.xml" "--include_dirs" "/home/tony/ros2_control/1_rrbot_ws/my_hardwareinterfaces/include"
+2: Test timeout computed to be: 300
+2: -- run_test.py: invoking following command in '/home/tony/ros2_control/1_rrbot_ws/my_hardwareinterfaces':
+2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/cppcheck.xunit.xml --include_dirs /home/tony/ros2_control/1_rrbot_ws/my_hardwareinterfaces/include
+2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/cppcheck.xunit.xml'
+2/5 Test #2: cppcheck .........................   Passed    0.23 sec
+test 3
+    Start 3: lint_cmake
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/lint_cmake.xunit.xml" "--package-name" "my_hardwareinterfaces" "--output-file" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/lint_cmake.xunit.xml"
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/tony/ros2_control/1_rrbot_ws/my_hardwareinterfaces':
+3:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/lint_cmake.xunit.xml
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/lint_cmake.xunit.xml'
+3/5 Test #3: lint_cmake .......................   Passed    0.19 sec
+test 4
+    Start 4: uncrustify
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/uncrustify.xunit.xml" "--package-name" "my_hardwareinterfaces" "--output-file" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/uncrustify.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/tony/ros2_control/1_rrbot_ws/my_hardwareinterfaces':
+4:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/uncrustify.xunit.xml
+4: Code style divergence in file 'src/rrbot_hardware_interface.cpp':
+4: 
+4: --- src/rrbot_hardware_interface.cpp
+4: +++ src/rrbot_hardware_interface.cpp.uncrustify
+4: @@ -27,2 +27 @@
+4: -  if (hardware_interface::SystemInterface::on_init(info) != CallbackReturn::SUCCESS)
+4: -  {
+4: +  if (hardware_interface::SystemInterface::on_init(info) != CallbackReturn::SUCCESS) {
+4: @@ -50,5 +49,5 @@
+4: -  for (size_t i = 0; i < info_.joints.size(); ++i)
+4: -  {
+4: -    state_interfaces.emplace_back(hardware_interface::StateInterface(
+4: -      // TODO(anyone): insert correct interfaces
+4: -      info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_states_[i]));
+4: +  for (size_t i = 0; i < info_.joints.size(); ++i) {
+4: +    state_interfaces.emplace_back(
+4: +      hardware_interface::StateInterface(
+4: +        // TODO(anyone): insert correct interfaces
+4: +        info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_states_[i]));
+4: @@ -63,5 +62,5 @@
+4: -  for (size_t i = 0; i < info_.joints.size(); ++i)
+4: -  {
+4: -    command_interfaces.emplace_back(hardware_interface::CommandInterface(
+4: -      // TODO(anyone): insert correct interfaces
+4: -      info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_commands_[i]));
+4: +  for (size_t i = 0; i < info_.joints.size(); ++i) {
+4: +    command_interfaces.emplace_back(
+4: +      hardware_interface::CommandInterface(
+4: +        // TODO(anyone): insert correct interfaces
+4: +        info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_commands_[i]));
+4: 
+4: Code style divergence in file 'test/test_rrbot_hardware_interface.cpp':
+4: 
+4: --- test/test_rrbot_hardware_interface.cpp
+4: +++ test/test_rrbot_hardware_interface.cpp.uncrustify
+4: @@ -55 +55 @@
+4: -              ros2_control_test_assets::urdf_tail;
+4: +    ros2_control_test_assets::urdf_tail;
+4: 
+4: 2 files with code style divergence
+4: No code style divergence in file 'include/my_hardwareinterfaces/rrbot_hardware_interface.hpp'
+4: 
+4: No code style divergence in file 'include/my_hardwareinterfaces/visibility_control.h'
+4: 
+4: -- run_test.py: return code 1
+4: -- run_test.py: verify result file '/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/uncrustify.xunit.xml'
+4/5 Test #4: uncrustify .......................***Failed    0.23 sec
+test 5
+    Start 5: xmllint
+
+5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/xmllint.xunit.xml" "--package-name" "my_hardwareinterfaces" "--output-file" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/xmllint.xunit.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/tony/ros2_control/1_rrbot_ws/my_hardwareinterfaces':
+5:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/xmllint.xunit.xml
+5: File 'my_hardwareinterfaces.xml' is valid
+5: 
+5: File 'package.xml' is valid
+5: 
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/test_results/my_hardwareinterfaces/xmllint.xunit.xml'
+5/5 Test #5: xmllint ..........................   Passed    1.15 sec
+
+80% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 5
+
+Label Time Summary:
+cppcheck      =   0.23 sec*proc (1 test)
+gmock         =   0.13 sec*proc (1 test)
+lint_cmake    =   0.19 sec*proc (1 test)
+linter        =   1.80 sec*proc (4 tests)
+uncrustify    =   0.23 sec*proc (1 test)
+xmllint       =   1.15 sec*proc (1 test)
+
+Total Test time (real) =   1.94 sec
+
+The following tests FAILED:
+	[0;31m  4 - uncrustify (Failed)[0;0m
+Errors while running CTest
+Output from these tests are in: /home/tony/ros2_control/1_rrbot_ws/build/my_hardwareinterfaces/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

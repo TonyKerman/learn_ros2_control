@@ -1,0 +1,113 @@
+[0.044s] Invoking command in '/home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.258s] -- Detecting C compiler ABI info
+[0.376s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.394s] -- Detecting C compile features
+[0.394s] -- Detecting C compile features - done
+[0.399s] -- Detecting CXX compiler ABI info
+[0.553s] -- Detecting CXX compiler ABI info - done
+[0.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.598s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.619s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.830s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.968s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.012s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.013s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.022s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.041s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.066s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.412s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.415s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.449s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.515s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.519s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.535s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.539s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.550s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.564s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.572s] -- Looking for pthread.h
+[1.649s] -- Looking for pthread.h - found
+[1.650s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.729s] -- Found Threads: TRUE  
+[1.790s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.881s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.886s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.887s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.901s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.902s] -- Configured cppcheck include dirs: /home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/include
+[1.902s] -- Configured cppcheck exclude dirs and/or files: 
+[1.903s] -- Added test 'lint_cmake' to check CMake code style
+[1.905s] -- Added test 'uncrustify' to check C / C++ code style
+[1.905s] -- Configured uncrustify additional arguments: 
+[1.906s] -- Added test 'xmllint' to check XML markup files
+[1.911s] -- Configuring done
+[1.975s] -- Generating done
+[1.979s] -- Build files have been written to: /home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface
+[1.994s] Invoked command in '/home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface
+[1.996s] Invoking command in '/home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface -- -j4 -l4
+[2.060s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.061s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.067s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.071s] [ 44%] [32mBuilding CXX object CMakeFiles/controlko_hardware_interface.dir/src/rrbot_hardware_interface.cpp.o[0m
+[5.057s] [ 55%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[5.103s] [ 55%] Built target gmock_main
+[6.481s] [01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type controlko_hardware_interface::RRBotHardwareInterface::prepare_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[6.481s] [01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:127:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstarting_at_least_one_pos_itf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[6.481s]   127 |   bool [01;35m[Kstarting_at_least_one_pos_itf[m[K = false;
+[6.481s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.481s] [01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:128:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstarting_at_least_one_vel_itf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[6.481s]   128 |   bool [01;35m[Kstarting_at_least_one_vel_itf[m[K = false;
+[6.482s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.482s] [01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:147:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstopping_all_pos_itfs[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[6.482s]   147 |   bool [01;35m[Kstopping_all_pos_itfs[m[K = true;
+[6.482s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.482s] [01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:148:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstopping_all_vel_itfs[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[6.482s]   148 |   bool [01;35m[Kstopping_all_vel_itfs[m[K = true;
+[6.482s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.482s] [01m[K/home/tony/ros2_control/1_rrbot_ws/roscon2022_workshop/controlko_hardware_interface/src/rrbot_hardware_interface.cpp:167:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_control_mode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.482s]   167 |   auto [01;35m[Kcurrent_control_mode[m[K = rrbot_comms_->get_control_mode();
+[6.482s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.471s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.532s] [ 66%] Built target gmock
+[7.554s] [ 77%] [32mBuilding CXX object CMakeFiles/test_rrbot_hardware_interface.dir/test/test_rrbot_hardware_interface.cpp.o[0m
+[7.814s] [ 88%] [32m[1mLinking CXX shared library libcontrolko_hardware_interface.so[0m
+[7.987s] [ 88%] Built target controlko_hardware_interface
+[9.143s] [100%] [32m[1mLinking CXX executable test_rrbot_hardware_interface[0m
+[9.404s] [100%] Built target test_rrbot_hardware_interface
+[9.414s] Invoked command in '/home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface -- -j4 -l4
+[9.441s] Invoking command in '/home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface
+[9.448s] -- Install configuration: ""
+[9.448s] -- Up-to-date: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/controlko_hardware_interface.xml
+[9.448s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/lib/libcontrolko_hardware_interface.so
+[9.449s] -- Set runtime path of "/home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/lib/libcontrolko_hardware_interface.so" to ""
+[9.450s] -- Up-to-date: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/include
+[9.450s] -- Up-to-date: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/include/controlko_hardware_interface
+[9.450s] -- Up-to-date: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/include/controlko_hardware_interface/rrbot_hardware_interface.hpp
+[9.450s] -- Up-to-date: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/include/controlko_hardware_interface/dr_denis_rrbot_comms.hpp
+[9.450s] -- Up-to-date: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/include/controlko_hardware_interface/visibility_control.h
+[9.450s] -- Up-to-date: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/library_path.sh
+[9.450s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/library_path.dsv
+[9.450s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/ament_index/resource_index/package_run_dependencies/controlko_hardware_interface
+[9.450s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/ament_index/resource_index/parent_prefix_path/controlko_hardware_interface
+[9.450s] -- Up-to-date: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/ament_prefix_path.sh
+[9.451s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/ament_prefix_path.dsv
+[9.451s] -- Up-to-date: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/path.sh
+[9.451s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/environment/path.dsv
+[9.451s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.bash
+[9.451s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.sh
+[9.451s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.zsh
+[9.452s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/local_setup.dsv
+[9.452s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.dsv
+[9.452s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/ament_index/resource_index/packages/controlko_hardware_interface
+[9.452s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/controlko_hardware_interface
+[9.453s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.453s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[9.453s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.453s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/controlko_hardware_interfaceConfig.cmake
+[9.454s] -- Installing: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/cmake/controlko_hardware_interfaceConfig-version.cmake
+[9.454s] -- Up-to-date: /home/tony/ros2_control/1_rrbot_ws/install/controlko_hardware_interface/share/controlko_hardware_interface/package.xml
+[9.457s] Invoked command in '/home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_control/1_rrbot_ws/build/controlko_hardware_interface

@@ -1,0 +1,82 @@
+[0.020s] Invoking command in '/home/tony/ros2_control/examples/build/ros2_control_demo_example_6': AMENT_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing:/home/tony/ros2_control/examples/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tony/ros2_control/examples/src/example_6 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_control/examples/install/ros2_control_demo_example_6
+[0.144s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.305s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.316s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.589s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.740s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.800s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.808s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.827s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.848s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.877s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.260s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.264s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.305s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.384s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.389s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.415s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.421s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.436s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.453s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.465s] -- Looking for C++ include pthread.h
+[1.608s] -- Looking for C++ include pthread.h - found
+[1.608s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.754s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.756s] -- Found Threads: TRUE  
+[1.859s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[4.009s] -- Configuring done
+[4.051s] -- Generating done
+[4.054s] -- Build files have been written to: /home/tony/ros2_control/examples/build/ros2_control_demo_example_6
+[4.075s] Invoked command in '/home/tony/ros2_control/examples/build/ros2_control_demo_example_6' returned '0': AMENT_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing:/home/tony/ros2_control/examples/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tony/ros2_control/examples/src/example_6 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_control/examples/install/ros2_control_demo_example_6
+[4.077s] Invoking command in '/home/tony/ros2_control/examples/build/ros2_control_demo_example_6': AMENT_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing:/home/tony/ros2_control/examples/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tony/ros2_control/examples/build/ros2_control_demo_example_6 -- -j4 -l4
+[4.158s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_6.dir/hardware/rrbot_actuator.cpp.o[0m
+[10.680s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_6.so[0m
+[11.024s] [100%] Built target ros2_control_demo_example_6
+[11.043s] Invoked command in '/home/tony/ros2_control/examples/build/ros2_control_demo_example_6' returned '0': AMENT_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing:/home/tony/ros2_control/examples/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tony/ros2_control/examples/build/ros2_control_demo_example_6 -- -j4 -l4
+[11.087s] Invoking command in '/home/tony/ros2_control/examples/build/ros2_control_demo_example_6': AMENT_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing:/home/tony/ros2_control/examples/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tony/ros2_control/examples/build/ros2_control_demo_example_6
+[11.101s] -- Install configuration: ""
+[11.101s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/ros2_control_demo_example_6.xml
+[11.101s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/include/ros2_control_demo_example_6
+[11.101s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/include/ros2_control_demo_example_6/ros2_control_demo_example_6
+[11.101s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/include/ros2_control_demo_example_6/ros2_control_demo_example_6/rrbot_actuator.hpp
+[11.101s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch
+[11.101s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/view_robot.launch.py
+[11.102s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/ros2_control
+[11.102s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/ros2_control/rrbot_modular_actuators.ros2_control.xacro
+[11.102s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/urdf
+[11.102s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/urdf/rrbot_modular_actuators.urdf.xacro
+[11.102s] -- Up-to-date: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch
+[11.102s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/rrbot_modular_actuators.launch.py
+[11.102s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/launch/test_forward_position_controller.launch.py
+[11.103s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/config
+[11.103s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/config/rrbot_forward_position_publisher.yaml
+[11.103s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/config/rrbot_modular_actuators.yaml
+[11.103s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/lib/libros2_control_demo_example_6.so
+[11.104s] -- Set runtime path of "/home/tony/ros2_control/examples/install/ros2_control_demo_example_6/lib/libros2_control_demo_example_6.so" to ""
+[11.104s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/library_path.sh
+[11.104s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/library_path.dsv
+[11.105s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_6
+[11.105s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_6
+[11.105s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/ament_prefix_path.sh
+[11.105s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/ament_prefix_path.dsv
+[11.105s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/path.sh
+[11.106s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/environment/path.dsv
+[11.106s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.bash
+[11.106s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.sh
+[11.106s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.zsh
+[11.106s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/local_setup.dsv
+[11.107s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.dsv
+[11.107s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ament_index/resource_index/packages/ros2_control_demo_example_6
+[11.108s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_6
+[11.109s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/export_ros2_control_demo_example_6Export.cmake
+[11.109s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/export_ros2_control_demo_example_6Export-noconfig.cmake
+[11.109s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ament_cmake_export_targets-extras.cmake
+[11.110s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.110s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ros2_control_demo_example_6Config.cmake
+[11.110s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/cmake/ros2_control_demo_example_6Config-version.cmake
+[11.110s] -- Installing: /home/tony/ros2_control/examples/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.xml
+[11.117s] Invoked command in '/home/tony/ros2_control/examples/build/ros2_control_demo_example_6' returned '0': AMENT_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing:/home/tony/ros2_control/examples/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tony/ros2_control/examples/build/ros2_control_demo_example_6

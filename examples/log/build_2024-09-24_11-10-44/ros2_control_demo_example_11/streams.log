@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/home/tony/ros2_control/examples/build/ros2_control_demo_example_11': AMENT_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing:/home/tony/ros2_control/examples/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tony/ros2_control/examples/src/example_11 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_control/examples/install/ros2_control_demo_example_11
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.305s] -- Detecting CXX compile features
+[0.305s] -- Detecting CXX compile features - done
+[0.315s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[0.315s]   By not providing "Findbackward_ros.cmake" in CMAKE_MODULE_PATH this project
+[0.315s]   has asked CMake to find a package configuration file provided by
+[0.315s]   "backward_ros", but CMake did not find one.
+[0.315s] 
+[0.315s]   Could not find a package configuration file provided by "backward_ros" with
+[0.315s]   any of the following names:
+[0.315s] 
+[0.316s]     backward_rosConfig.cmake
+[0.316s]     backward_ros-config.cmake
+[0.316s] 
+[0.316s]   Add the installation prefix of "backward_ros" to CMAKE_PREFIX_PATH or set
+[0.316s]   "backward_ros_DIR" to a directory containing one of the above files.  If
+[0.316s]   "backward_ros" provides a separate development package or SDK, be sure it
+[0.316s]   has been installed.
+[0.316s] 
+[0.316s] [0m
+[0.316s] -- Configuring incomplete, errors occurred!
+[0.316s] See also "/home/tony/ros2_control/examples/build/ros2_control_demo_example_11/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,10 @@
+gmake[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:90: gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o] Interrupt
+gmake[2]: *** [gmock/CMakeFiles/gmock_main.dir/build.make:76: gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/controlko_hardware_interface.dir/build.make:76: CMakeFiles/controlko_hardware_interface.dir/src/rrbot_hardware_interface.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:176: CMakeFiles/controlko_hardware_interface.dir/all] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:255: gmock/CMakeFiles/gmock_main.dir/all] Interrupt
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:229: gmock/CMakeFiles/gmock.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

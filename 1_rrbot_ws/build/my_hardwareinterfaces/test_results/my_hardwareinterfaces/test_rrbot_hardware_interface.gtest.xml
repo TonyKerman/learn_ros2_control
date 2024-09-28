@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="0.005" timestamp="2024-09-28T10:08:08" name="AllTests">
+  <testsuite name="TestRRBotHardwareInterface" tests="1" failures="0" disabled="0" errors="0" time="0.005" timestamp="2024-09-28T10:08:08">
+    <testcase name="load_rrbot_hardware_interface_2dof" status="run" result="completed" time="0.005" timestamp="2024-09-28T10:08:08" classname="my_hardwareinterfaces.TestRRBotHardwareInterface" />
+  </testsuite>
+</testsuites>

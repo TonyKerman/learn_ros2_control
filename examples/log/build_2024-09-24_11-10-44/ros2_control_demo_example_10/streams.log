@@ -1,0 +1,27 @@
+[0.016s] Invoking command in '/home/tony/ros2_control/examples/build/ros2_control_demo_example_10': AMENT_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing:/home/tony/ros2_control/examples/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tony/ros2_control/examples/src/example_10 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_control/examples/install/ros2_control_demo_example_10
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.284s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[0.284s]   By not providing "Findbackward_ros.cmake" in CMAKE_MODULE_PATH this project
+[0.284s]   has asked CMake to find a package configuration file provided by
+[0.284s]   "backward_ros", but CMake did not find one.
+[0.284s] 
+[0.284s]   Could not find a package configuration file provided by "backward_ros" with
+[0.284s]   any of the following names:
+[0.284s] 
+[0.284s]     backward_rosConfig.cmake
+[0.284s]     backward_ros-config.cmake
+[0.285s] 
+[0.285s]   Add the installation prefix of "backward_ros" to CMAKE_PREFIX_PATH or set
+[0.285s]   "backward_ros_DIR" to a directory containing one of the above files.  If
+[0.285s]   "backward_ros" provides a separate development package or SDK, be sure it
+[0.285s]   has been installed.
+[0.285s] 
+[0.285s] [0m
+[0.285s] -- Configuring incomplete, errors occurred!
+[0.285s] See also "/home/tony/ros2_control/examples/build/ros2_control_demo_example_10/CMakeFiles/CMakeOutput.log".
+[0.289s] Invoked command in '/home/tony/ros2_control/examples/build/ros2_control_demo_example_10' returned '1': AMENT_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing:/home/tony/ros2_control/examples/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_control/examples/install/ros2_control_demo_description:/opt/ros/humble PYTHONPATH=/home/tony/ros2_control/examples/install/ros2_control_demo_testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/tony/ros2_control/examples/src/example_10 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_control/examples/install/ros2_control_demo_example_10

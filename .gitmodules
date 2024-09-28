@@ -1,0 +1,10 @@
+[submodule "1_rrbot_ws/roscon2022_workshop"]
+	path = 1_rrbot_ws/roscon2022_workshop
+	url = https://github.com/ros-controls/roscon2022_workshop.git
+[submodule "examples/src"]
+	path = examples/src
+	url = https://github.com/ros-controls/ros2_control_demos.git
+	branch = humble
+[submodule "ros_team_workspace"]
+	path = ros_team_workspace
+	url = ttps://github.com/StoglRobotics/ros_team_workspace.git

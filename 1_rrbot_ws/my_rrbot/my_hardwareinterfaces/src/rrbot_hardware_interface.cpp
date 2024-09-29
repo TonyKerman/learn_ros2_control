@@ -47,16 +47,19 @@ hardware_interface::CallbackReturn RRBotHardwareInterface::on_init(
   hw_states_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
   hw_commands_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
   // real_joint_positions_是用来模拟真实的机器人状态的
-  real_joint_positions_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
+  
 
   return CallbackReturn::SUCCESS;
 }
-igure(
-  const rclcpp_lifecycle::State & /*previous_state*/)
-hardware_interface::CallbackReturn RRBotHardwareInterface::on_conf
+
+ /*
+ 
+ */
+ 
+hardware_interface::CallbackReturn RRBotHardwareInterface::on_configure( const rclcpp_lifecycle::State & previous_state)
 {
   // TODO(anyone): prepare the robot to be ready for read calls and write calls of some interfaces
-
+  real_joint_positions_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
   return CallbackReturn::SUCCESS;
 }
 /*
@@ -98,7 +101,8 @@ hardware_interface::CallbackReturn RRBotHardwareInterface::on_activate(
   const rclcpp_lifecycle::State & /*previous_state*/)
 {
   // TODO(anyone): prepare the robot to receive commands
-
+  hw_commands_=hw_states_;
+  real_joint_positions_=hw_states_;
   return CallbackReturn::SUCCESS;
 }
 

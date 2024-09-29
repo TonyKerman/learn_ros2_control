@@ -14,7 +14,7 @@ def generate_launch_description():
     declared_arguments.append(
         DeclareLaunchArgument(
             "description_package",
-            default_value="controlko_description",
+            default_value="rrbot_description",
             description="Description package of the rrbot. Usually the argument is not set, \
         it enables use of a custom description.",
         )

@@ -9,7 +9,7 @@ from launch_ros.substitutions import FindPackageShare
 def generate_launch_description():
 
     position_goals = PathJoinSubstitution(
-        [FindPackageShare("controlko_bringup"), "config", "test_goal_publishers_config.yaml"]
+        [FindPackageShare("rrbot_bringup"), "config", "test_goal_publishers_config.yaml"]
     )
 
     return LaunchDescription(

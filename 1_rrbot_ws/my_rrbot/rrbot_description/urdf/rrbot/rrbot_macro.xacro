@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
 
-  <xacro:include filename="$(find controlko_description)/urdf/common.xacro" />
+  <xacro:include filename="$(find rrbot_description)/urdf/common.xacro" />
 
   <xacro:macro name="rrbot" params="prefix parent *origin">
     <!-- LINKS -->

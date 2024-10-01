@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+  <xacro:include filename="$(find steering_chassis_description)/urdf/steering_chassis/steering_wheel_macro.xacro" />
+  <xacro:macro name="steering_chassis" params="prefix parent *origin">
+    <xacro:property name="AX" value="0.7" />
+    <xacro:property name="AY" value="0.7" />
+
+    <link name="${prefix}base_link">
+      <!-- Default inertial for Gazebo - copy and edit block from 'common.xacro'
+           to get more realistic behavior -->
+      <xacro:default_inertial/>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <box size="${AX} ${AY} 0.05"/>
+          <!--           <mesh filename="package://steering_chassis_description/meshes/steering_chassis/visual/base_link.dae" /> -->
+        </geometry>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <box size="${AX} ${AY} 0.1"/>
+          <!--           <mesh filename="package://steering_chassis_description/meshes/steering_chassis/collision/base_link.stl" /> -->
+        </geometry>
+      </collision>
+    </link>
+    <xacro:steering_wheel prefix="${prefix}" index="1" parent="${prefix}base_link">
+      <origin xyz="${AX/2} ${AY/2} 0" rpy="0 0 0" />
+      <!-- position robot in the world -->
+    </xacro:steering_wheel>
+    <xacro:steering_wheel prefix="${prefix}" index="3" parent="${prefix}base_link">
+      <origin xyz="${-1*AX/2} ${AY/2} 0" rpy="0 0 0" />
+      <!-- position robot in the world -->
+    </xacro:steering_wheel>
+    <xacro:steering_wheel prefix="${prefix}" index="4" parent="${prefix}base_link">
+      <origin xyz="${-1*AX/2} ${-1*AY/2} 0" rpy="0 0 0" />
+      <!-- position robot in the world -->
+    </xacro:steering_wheel>
+
+    <xacro:steering_wheel prefix="${prefix}" index="2" parent="${prefix}base_link">
+      <origin xyz="${AX/2} ${-1*AY/2} 0" rpy="0 0 0" />
+      <!-- position robot in the world -->
+    </xacro:steering_wheel>
+    <joint name="${prefix}base_joint" type="fixed">
+      <xacro:insert_block name="origin" />
+      <parent link="${parent}" />
+      <child link="${prefix}base_link" />
+    </joint>
+  </xacro:macro>
+</robot>

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(steering_wheel_description)
+project(steering_chassis_bringup)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -12,14 +12,11 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 install(
-  DIRECTORY config launch meshes rviz urdf test
+  DIRECTORY config launch
   DESTINATION share/${PROJECT_NAME}
 )
 
 if(BUILD_TESTING)
-find_package(ament_cmake_pytest REQUIRED)
-
-  ament_add_pytest_test(test_steering_wheel_urdf_xacro test/steering_wheel_test_urdf_xacro.py)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
   # comment the line when a copyright and license is added to all source files

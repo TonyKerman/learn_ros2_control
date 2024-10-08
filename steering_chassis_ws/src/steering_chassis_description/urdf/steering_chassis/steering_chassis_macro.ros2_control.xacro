@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
-
+  <xacro:macro name="steering_wheel_directing_joint" params= "prefix index">
+    <joint name="${prefix}wheel${index}_joint1">
+        <command_interface name="position"/>     <!-- Add/Remove interfaces as needed -->
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
+        <state_interface name="velocity"/>
+    </joint>
+  </xacro:macro>
+  <xacro:macro name="steering_wheel_motor_joint" params= "prefix index">
+    <joint name="${prefix}wheel${index}_joint2">
+        <command_interface name="velocity">     <!-- Add/Remove interfaces as needed -->
+          <param name="min">0.01</param>
+          <param name="max">1</param>
+        </command_interface>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>        
+        <state_interface name="velocity"/>
+    </joint>
+  </xacro:macro>
   <xacro:macro name="steering_chassis_ros2_control" params="
                name
                prefix
@@ -27,73 +47,14 @@
           <plugin>robot_hardware_inteface/RobotHardwareInteface</plugin>
         </xacro:unless>
       </hardware>
-      <joint name="${prefix}joint1">
-        <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
-          <param name="min">-1</param>
-          <param name="max">1</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-        <state_interface name="acceleration"/>
-      </joint>
-      <joint name="${prefix}joint2">
-        <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
-          <param name="min">-1</param>
-          <param name="max">1</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-        <state_interface name="acceleration"/>
-      </joint>
-      <joint name="${prefix}joint3">
-        <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
-          <param name="min">-1</param>
-          <param name="max">1</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-        <state_interface name="acceleration"/>
-      </joint>
-      <joint name="${prefix}joint4">
-        <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
-          <param name="min">-1</param>
-          <param name="max">1</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-        <state_interface name="acceleration"/>
-      </joint>
-      <joint name="${prefix}joint5">
-        <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
-          <param name="min">-1</param>
-          <param name="max">1</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-        <state_interface name="acceleration"/>
-      </joint>
-      <joint name="${prefix}joint6">
-        <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
-          <param name="min">-1</param>
-          <param name="max">1</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-        <state_interface name="acceleration"/>
-      </joint>
-
+    <xacro:steering_wheel_directing_joint prefix="${prefix}" index="1"/>
+    <xacro:steering_wheel_directing_joint prefix="${prefix}" index="2"/>
+    <xacro:steering_wheel_directing_joint prefix="${prefix}" index="3"/>
+    <xacro:steering_wheel_directing_joint prefix="${prefix}" index="4"/>
+    <xacro:steering_wheel_motor_joint prefix="${prefix}" index="1"/>
+    <xacro:steering_wheel_motor_joint prefix="${prefix}" index="2"/>
+    <xacro:steering_wheel_motor_joint prefix="${prefix}" index="3"/>
+    <xacro:steering_wheel_motor_joint prefix="${prefix}" index="4"/>
     </ros2_control>
 
     <xacro:if value="$(arg sim_gazebo_classic)">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
-
+  
   <xacro:macro name="rrbot_ros2_control" params="
                name
                prefix
